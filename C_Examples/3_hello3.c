@@ -1,11 +1,18 @@
 #include <stdio.h>
 
-void print();
+void output();
 
 int main(){
-    print();
-	return 0;
+	printf("something \n");
+    output();
+	printf("something else\n");
+	return 1;
 }
-void print() {
-	printf("now this code");
+
+
+
+
+void output() {
+	int i;
+	printf("now this code\n");
 }

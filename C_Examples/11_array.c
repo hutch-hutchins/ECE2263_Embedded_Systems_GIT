@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-void main() {
 	char myName[] = "Nathan";
 
-	printf("My name is %s", myName);
+void main() {
+	
+
+	printf("My name is %c", myName[6]);
 }

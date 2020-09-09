@@ -5,9 +5,9 @@ int add(int x, int y);
 int main() {
 	int firstNumber, secondNumber, finalNumber;
 	printf("Please give me your first number\n");
-	scanf("%d", &firstNumber);
+	scanf("%X", &firstNumber);
 	printf("Please give me your second number\n");
-	scanf("%d", &secondNumber);
+	scanf("%X", &secondNumber);
 
 	finalNumber = add(firstNumber, secondNumber);
 

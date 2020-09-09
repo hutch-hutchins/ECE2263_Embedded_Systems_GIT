@@ -3,10 +3,10 @@
 #define pi 3.1415;
 
 int main() {
-	double numberOne = 1.1;
+	int numberOne = 1;
 	double numberTwo = 2.2;
 
-	numberTwo = numberOne * pi;
+	numberOne = numberTwo * pi;
 
-	printf("%f", numberTwo);
+	printf("%d", numberOne);
 }
