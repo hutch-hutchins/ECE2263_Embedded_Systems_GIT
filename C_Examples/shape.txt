@@ -1,0 +1,8 @@
+The para. of your square is: 12.000000
+The area of your square is: 9.000000
+The para. of your circle is: 9.424500
+The area of your circle is: 7.068375
+The para. of your square is: 20.000000
+The area of your square is: 25.000000
+The para. of your circle is: 15.707500
+The area of your circle is: 19.634375
