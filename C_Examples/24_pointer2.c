@@ -6,5 +6,5 @@ int main() {
 	int *p;	
 	p = myArray;
 
-	printf("%p, %p, %p, %p\n", p, p++, p++, p++);
+	printf("%p, %p, %p, %p\n", p, p++, p++, p+1000000000);
 }

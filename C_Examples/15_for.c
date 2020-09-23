@@ -2,10 +2,9 @@
 
 int main() {
 
-	int i = 0;
-
-	for(i=0; i<3; i++){
-		printf("i is %d\n", i);
+	for(double i=0; i<=100.0; i = i + 1.0){
+		printf("i is %f\n", i);
+		i++;
 	}
-	printf("i is now %d, outside the loop\n", i);
+	//printf("i is now %d, outside the loop\n", i);
 }

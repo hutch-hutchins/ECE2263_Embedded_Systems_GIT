@@ -13,9 +13,11 @@ int main() {
 	struct student studentOne;
 	struct student studentTwo;
 
-	strcpy(studentOne.studentName, "Nathan");
+	char nathan[] = "Nathan";
+
+	strcpy(studentOne.studentName, nathan);
 	strcpy(studentOne.studentDegree, "Computer Engineering");
-	studentOne.studentAge = 28;
+	studentOne.studentAge =30;
 	studentOne.studentGpa = 3.85;
 
 	strcpy(studentTwo.studentName, "Shannon");
@@ -23,5 +25,5 @@ int main() {
 	studentTwo.studentAge = 25;
 	studentTwo.studentGpa = 4.0;
 
-	printf("%s's GPA is %f\n", studentOne.studentName, studentOne.studentGpa);
+	printf("%p is %p\n", &studentOne.studentName, &studentOne.studentAge);
 }

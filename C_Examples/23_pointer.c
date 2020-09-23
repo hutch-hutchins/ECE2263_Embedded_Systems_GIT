@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int myNumber = 17;
+	float myNumber = 17;
+	printf("%f\n", myNumber);
 	printf("%p\n", &myNumber);
 }

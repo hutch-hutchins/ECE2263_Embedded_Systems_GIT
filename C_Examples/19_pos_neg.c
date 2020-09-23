@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int x = 0;
+	int x = -31;
 
 	if (x > 0) {
 		printf("x is positive\n");

@@ -2,7 +2,7 @@
 
 int main() {
 
-	int i = 0;
+	int i = 17;
 
 	do{
 		printf("i is %d\n", i);
