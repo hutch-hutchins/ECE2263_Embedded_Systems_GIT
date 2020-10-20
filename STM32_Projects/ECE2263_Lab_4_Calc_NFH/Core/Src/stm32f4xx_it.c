@@ -46,9 +46,10 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
 extern char keyChar;
-bool a, b, c, d;
 extern uint16_t key;
 
+///Pinout, looking at back of keypad, left to right
+/// PC8, PC7, PC6, PC5, PB15, PB14, PB13, PB1
 
 const GPIO_TypeDef* _KEYPAD_COLUMN_GPIO_PORT[] =
 {
@@ -261,6 +262,7 @@ void EXTI9_5_IRQHandler(void)
 	}
 
 	keyChar = KeyPadGetChar(key);
+	key = 0;
 
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_RESET);
   /* USER CODE END EXTI9_5_IRQn 0 */

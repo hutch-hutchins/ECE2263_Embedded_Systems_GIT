@@ -2,7 +2,8 @@
 #include<stdlib.h>
 #include<time.h>
 
-#define n 2048
+#define n 256
+
 double a[n][n];
 double b[n][n];
 double c[n][n];
@@ -11,7 +12,7 @@ clock_t start, end;
 double cpu_time_used;
 
 
-int main(int argc, const char *arg[]){
+int main(){
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < n; ++j){
             a[i][j] = (double)rand() / (double)RAND_MAX;
