@@ -1,4 +1,4 @@
-# ECE2264_Embedded_Systems_GIT
+# ECE2263_Embedded_Systems_GIT
 
 This is the GIT repository for The University of Tulsa's ECE2263 - Embedded Systems in 'C'.
 This repository contains the example files for specific lectures and projects.
